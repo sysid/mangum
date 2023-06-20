@@ -1,0 +1,24 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+
+[dev-packages]
+pytest = "*"
+codecov = "*"
+pytest-cov = "*"
+black = "*"
+flake8 = "*"
+starlette = "*"
+quart = "*"
+mypy = "*"
+brotli = "*"
+brotli-asgi = "*"
+mkdocs = "*"
+mkdocs-material = "*"
+
+[requires]
+python_version = "3.11"
+python_full_version = "3.11.3"
